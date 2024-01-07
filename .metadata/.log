@@ -1,0 +1,494 @@
+!SESSION 2024-01-07 23:45:01.067 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/Tsu/Desktop/DM_AA1/AA1_Integration_1/
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2024-01-07 23:45:01.759
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2024-01-07 23:45:01.782
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-07 23:45:02.616
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:03.149
+!MESSAGE 2024-01-07 23:45:03,149 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:03.259
+!MESSAGE 2024-01-07 23:45:03,259 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20211109_1610   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:03.333
+!MESSAGE 2024-01-07 23:45:03,333 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:03.333
+!MESSAGE 2024-01-07 23:45:03,333 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:37.796
+!MESSAGE 2024-01-07 23:45:37,795 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:37.797
+!MESSAGE 2024-01-07 23:45:37,797 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:37.798
+!MESSAGE 2024-01-07 23:45:37,797 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:37.911
+!MESSAGE 2024-01-07 23:45:37,910 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:45:40.633
+!MESSAGE 2024-01-07 23:45:40,633 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:41.785
+!MESSAGE 2024-01-07 23:45:41,784 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:63944/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:42.595
+!MESSAGE 2024-01-07 23:45:42,593 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on WQD7005_AA1_Integration1
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:43.408
+!MESSAGE 2024-01-07 23:45:43,408 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\Tsu\Desktop\DM_AA1\AA1_Integration_1\WQD7005_AA1_INTEGRATION1\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:43.413
+!MESSAGE 2024-01-07 23:45:43,412 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:43.750
+!MESSAGE 2024-01-07 23:45:43,750 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:44.322
+!MESSAGE 2024-01-07 23:45:44,318 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 573, total: 573
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:44.680
+!MESSAGE 2024-01-07 23:45:44,680 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 640 components loaded in 482 ms
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:45:44.982
+!MESSAGE 2024-01-07 23:45:44,981 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:45:44.983
+!MESSAGE 2024-01-07 23:45:44,982 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:45:45.214
+!MESSAGE 2024-01-07 23:45:45,214 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:45:45.215
+!MESSAGE 2024-01-07 23:45:45,215 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:45.997
+!MESSAGE 2024-01-07 23:45:45,997 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:47.249
+!MESSAGE 2024-01-07 23:45:47,248 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:47.250
+!MESSAGE 2024-01-07 23:45:47,249 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java overlaps with sources folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:47.282
+!MESSAGE 2024-01-07 23:45:47,281 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:47.283
+!MESSAGE 2024-01-07 23:45:47,282 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:47.536
+!MESSAGE 2024-01-07 23:45:47,534 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 1 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:49.305
+!MESSAGE 2024-01-07 23:45:49,304 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\Tsu\Desktop\DM_AA1\AA1_Integration_1\WQD7005_AA1_INTEGRATION1\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:49.306
+!MESSAGE 2024-01-07 23:45:49,305 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.301
+!MESSAGE 2024-01-07 23:45:54,301 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.494
+!MESSAGE 2024-01-07 23:45:54,493 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.751
+!MESSAGE 2024-01-07 23:45:54,750 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.752
+!MESSAGE 2024-01-07 23:45:54,751 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java overlaps with sources folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.761
+!MESSAGE 2024-01-07 23:45:54,760 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.761
+!MESSAGE 2024-01-07 23:45:54,761 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:54.929
+!MESSAGE 2024-01-07 23:45:54,928 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:55.661
+!MESSAGE 2024-01-07 23:45:55,660 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:55.678
+!MESSAGE 2024-01-07 23:45:55,678 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\Tsu\Desktop\DM_AA1\AA1_Integration_1\WQD7005_AA1_INTEGRATION1\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:45:55.679
+!MESSAGE 2024-01-07 23:45:55,678 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:46:25.216
+!MESSAGE 2024-01-07 23:46:25,215 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:46:25.445
+!MESSAGE 2024-01-07 23:46:25,444 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:46:25.446
+!MESSAGE 2024-01-07 23:46:25,445 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:46:25.456
+!MESSAGE 2024-01-07 23:46:25,455 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:46:25.457
+!MESSAGE 2024-01-07 23:46:25,456 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-01-07 23:53:10.179
+!MESSAGE 2024-01-07 23:53:10,163 ERROR org.talend.designer.codegen.CodeGenerator  - InvocationTargetException
+
+!STACK 0
+org.eclipse.emf.codegen.jet.JETException: InvocationTargetException
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:478)
+	at org.talend.designer.codegen.config.TalendJetEmitter.generate(TalendJetEmitter.java:696)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:450)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:441)
+	at org.talend.designer.codegen.proxy.JetProxy.generate(JetProxy.java:54)
+	at org.talend.designer.codegen.CodeGenerator.generateComponentCode(CodeGenerator.java:924)
+	at org.talend.designer.core.ui.views.CodeView$7.run(CodeView.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:470)
+	... 7 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.talend.core.model.metadata.IMetadataColumn.getTalendType()" because "rightColumn" is null
+	at org.talend.designer.codegen.translators.processing.TFilterRowMainJava.generate(TFilterRowMainJava.java:149)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 9 more
+
+!ENTRY org.talend.platform.logging 2 0 2024-01-07 23:53:10.179
+!MESSAGE 2024-01-07 23:53:10,179 WARN  org.talend.commons.exception.CommonExceptionHandler  - org.eclipse.emf.codegen.jet.JETException: InvocationTargetException
+
+!STACK 0
+org.talend.designer.codegen.exception.CodeGeneratorException: org.eclipse.emf.codegen.jet.JETException: InvocationTargetException
+	at org.talend.designer.codegen.CodeGenerator.generateComponentCode(CodeGenerator.java:928)
+	at org.talend.designer.core.ui.views.CodeView$7.run(CodeView.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.emf.codegen.jet.JETException: InvocationTargetException
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:478)
+	at org.talend.designer.codegen.config.TalendJetEmitter.generate(TalendJetEmitter.java:696)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:450)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:441)
+	at org.talend.designer.codegen.proxy.JetProxy.generate(JetProxy.java:54)
+	at org.talend.designer.codegen.CodeGenerator.generateComponentCode(CodeGenerator.java:924)
+	... 2 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.emf.codegen.jet.JETEmitter.generate(JETEmitter.java:470)
+	... 7 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.talend.core.model.metadata.IMetadataColumn.getTalendType()" because "rightColumn" is null
+	at org.talend.designer.codegen.translators.processing.TFilterRowMainJava.generate(TFilterRowMainJava.java:149)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 9 more
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.168
+!MESSAGE 2024-01-07 23:56:03,167 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.589
+!MESSAGE 2024-01-07 23:56:03,588 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.589
+!MESSAGE 2024-01-07 23:56:03,589 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java overlaps with sources folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.610
+!MESSAGE 2024-01-07 23:56:03,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.611
+!MESSAGE 2024-01-07 23:56:03,610 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:03.733
+!MESSAGE 2024-01-07 23:56:03,733 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:04.311
+!MESSAGE 2024-01-07 23:56:04,311 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\Tsu\Desktop\DM_AA1\AA1_Integration_1\WQD7005_AA1_INTEGRATION1\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:04.312
+!MESSAGE 2024-01-07 23:56:04,311 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.039
+!MESSAGE 2024-01-07 23:56:07,039 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.118
+!MESSAGE 2024-01-07 23:56:07,118 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.301
+!MESSAGE 2024-01-07 23:56:07,301 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.301
+!MESSAGE 2024-01-07 23:56:07,301 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java overlaps with sources folder /WQD7005_AA1_INTEGRATION1_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.306
+!MESSAGE 2024-01-07 23:56:07,306 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.307
+!MESSAGE 2024-01-07 23:56:07,306 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.380
+!MESSAGE 2024-01-07 23:56:07,379 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.863
+!MESSAGE 2024-01-07 23:56:07,863 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.886
+!MESSAGE 2024-01-07 23:56:07,886 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\Tsu\Desktop\DM_AA1\AA1_Integration_1\WQD7005_AA1_INTEGRATION1\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:07.886
+!MESSAGE 2024-01-07 23:56:07,886 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:14.462
+!MESSAGE 2024-01-07 23:56:14,461 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:14.464
+!MESSAGE 2024-01-07 23:56:14,464 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:14.564
+!MESSAGE 2024-01-07 23:56:14,564 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.077
+!MESSAGE 2024-01-07 23:56:15,077 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.078
+!MESSAGE 2024-01-07 23:56:15,078 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.082
+!MESSAGE 2024-01-07 23:56:15,081 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.082
+!MESSAGE 2024-01-07 23:56:15,082 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.175
+!MESSAGE 2024-01-07 23:56:15,175 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:15.815
+!MESSAGE 2024-01-07 23:56:15,814 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:16.113
+!MESSAGE 2024-01-07 23:56:16,113 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-21/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/Tsu/Desktop/DM_AA1/AA1_Integration_1/WQD7005_AA1_INTEGRATION1/poms/jobs/process/wqd7005_aa1_0.1/target/classpath.jar; wqd7005_aa1_integration1.wqd7005_aa1_0_1.WQD7005_AA1 --context=Default --stat_port=3907 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.339
+!MESSAGE 2024-01-07 23:56:21,338 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.341
+!MESSAGE 2024-01-07 23:56:21,341 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.460
+!MESSAGE 2024-01-07 23:56:21,460 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.600
+!MESSAGE 2024-01-07 23:56:21,599 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.600
+!MESSAGE 2024-01-07 23:56:21,600 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.602
+!MESSAGE 2024-01-07 23:56:21,601 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.602
+!MESSAGE 2024-01-07 23:56:21,602 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /WQD7005_AA1_INTEGRATION1_WQD7005_AA1_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:21.708
+!MESSAGE 2024-01-07 23:56:21,708 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:22.214
+!MESSAGE 2024-01-07 23:56:22,213 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/WQD7005_AA1_INTEGRATION1_ROUTINES: org.example.wqd7005_aa1_integration1.code:routines:8.0.1 with classifier  to /WQD7005_AA1_INTEGRATION1_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:22.361
+!MESSAGE 2024-01-07 23:56:22,360 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-21/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/Tsu/Desktop/DM_AA1/AA1_Integration_1/WQD7005_AA1_INTEGRATION1/poms/jobs/process/wqd7005_aa1_0.1/target/classpath.jar; wqd7005_aa1_integration1.wqd7005_aa1_0_1.WQD7005_AA1 --context=Default --stat_port=3897 %*
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-07 23:56:42.916
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-01-07 23:56:43.162 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -talendReload false -talendRestart true
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/Tsu/Desktop/DM_AA1/AA1_Integration_1/ -talendReload false -talendRestart true
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2024-01-07 23:56:43.800
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2024-01-07 23:56:43.800
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-07 23:56:44.665
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:45.235
+!MESSAGE 2024-01-07 23:56:45,235 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:45.351
+!MESSAGE 2024-01-07 23:56:45,351 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20211109_1610   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:45.436
+!MESSAGE 2024-01-07 23:56:45,436 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-01-07 23:56:45.436
+!MESSAGE 2024-01-07 23:56:45,436 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-07 23:56:45.483
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

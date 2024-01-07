@@ -1,0 +1,5 @@
+[103],45,Male,Johor,Silver,30.0,3500.2,Clothing,,Architect,12,0,LastPurchaseDate!=null failed
+[113],30,Male,Selangor,Gold,18.0,,Electronics,07/22/2023,Nurse,8,0,TotalSpent!=null failed
+[117],28,Male,Kuala Lumpur,Platinum,14.0,,Clothing,06/20/2023,Researcher,7,1,TotalSpent!=null failed
+[122],33,Female,Penang,Silver,21.0,,Clothing,07/05/2023,Photographer,8,0,TotalSpent!=null failed
+[198],36,Female,Penang,Silver,28.0,2500.6,Clothing,,Scientist,10,1,LastPurchaseDate!=null failed
